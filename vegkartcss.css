@@ -1,0 +1,111 @@
+.navbar-brand{
+	 font-weight: bold;
+}
+.firstdiv{
+	background: #074B31;
+
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.home{
+	background: #B2E9BA;
+	padding: 2%;
+}
+.card{
+	margin-top: 10px;
+}
+.cart{
+	padding-right: 10px;
+	font-size: 1.4rem;
+	color: #FFFFFF;
+}
+.ham{
+	align-items: left;
+}
+.footer{
+	background: #192A18;
+	padding: 50px 0;
+}
+.ham{
+	position: static;
+	right: 0px;
+	top: 0px;
+}
+.card:hover{
+	border-style: outset;
+	border-width: 3px;
+}
+.imgveg:hover{
+	size: 10px;
+}
+.footerli{
+	margin:  auto;
+	padding: 10px;
+}
+.h55{
+	 margin: 0 auto;
+}
+.colpad{
+	margin-right: 0px;
+	padding: 0px 0px 0px 0px;
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0;
+}
+.bttn:hover{
+	width: 100%;
+	text-transform: capitalize;
+
+}
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom:-10px;
+	background-color: #850808;
+	height: 4px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col h4::after{
+	width: 70px;
+}
+.footer-col ul li{
+	margin-bottom: 8px;
+	
+}
+.footer-col ul li:first-child{
+	margin-top: 15px;
+
+}
+.footer-col ul li a{
+	margin-top: 15px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: #DBFEF0;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 250;
+	color: #E0FFEC;
+}
+.footer-col ul li a:hover{
+	color: #FFFFFF;
+	padding-left: 5px;
+}
+.footer-col h4:hover{
+	font-size: 20px;
+}
